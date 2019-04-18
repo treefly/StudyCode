@@ -8,7 +8,9 @@ namespace Example
 {
     class Program
     {
-
+        /*
+         * 一家戏剧公司，演员会参加表演。戏剧分为喜剧和悲剧。公司根据观众的规模和戏剧的类型收费。除了账单，还有volume credits，未来的折扣。
+         * */
         static Invoice _invoices = new Invoice();
         static List<Play> plays = new List<Play>()
             {
@@ -26,9 +28,9 @@ namespace Example
         }
         public static string  Statement(Invoice invoice, List<Play> plays)
         {
-            var totalAmount = 0;
-            var volumeCredits = 0;
-            var result = invoice.Customer;
+            var totalAmount = 0;//总共数量
+            var volumeCredits = 0;//用户 信用卷
+            var result = invoice.Customer;//用户信息
 
             foreach (var perf in invoice.performances)
             {
@@ -57,9 +59,16 @@ namespace Example
             return play;
         }
 
-        private static int amountFor( Performance perf)
+
+
+        /// <summary>
+        /// 发票金额统计
+        /// </summary>
+        /// <param name="perf"></param>
+        /// <returns></returns>
+        private static int amountFor(Performance perf)
         {
-            var thisAmount = 0;
+            var result = 0;
             var play = playFor(perf);
             if (play == null)
             {
@@ -67,42 +76,61 @@ namespace Example
             }
             switch (play.type)
             {
-                case "tragedy":
-                    thisAmount = 40000;
+                case "tragedy"://悲剧
+                    result = 40000;
                     if (perf.audience > 30)
                     {
-                        thisAmount += 1000*(perf.audience - 30);
+                        result += 1000*(perf.audience - 30);
                     }
                     break;
-                case "comedy":
-                    thisAmount = 30000;
+                case "comedy"://喜剧
+                    result = 30000;
                     if (perf.audience > 20)
                     {
-                        thisAmount += 10000 + 500*(perf.audience - 20);
+                        result += 10000 + 500*(perf.audience - 20);
                     }
-                    thisAmount += 300*perf.audience;
+                    result += 300*perf.audience;
                     break;
                 default:
                     throw new Exception(play.type);
                     break;
             }
-            return thisAmount;
+            return result;
         }
     }
 
 
     
-
+    /// <summary>
+    /// 戏剧
+    /// </summary>
     public class Play
     {
+        /// <summary>
+        /// 戏剧名称
+        /// </summary>
         public string Name { get;   set; }
+        /// <summary>
+        /// 戏剧类型 喜剧还是悲剧
+        /// </summary>
         public string type { get;   set; }
        
     }
 
+
+    /// <summary>
+    /// 发票信息
+    /// </summary>
     public class Invoice
     {
+        /// <summary>
+        /// 用户信息
+        /// </summary>
         public string Customer { get;private set; }
+
+        /// <summary>
+        /// 观看的戏剧信息
+        /// </summary>
         public List<Performance> performances { get; private set; }
     
         public void InitSource()
@@ -117,9 +145,18 @@ namespace Example
         }
     }
 
+    /// <summary>
+    /// 表演信息
+    /// </summary>
     public class Performance
     {
+        /// <summary>
+        /// 表演者
+        /// </summary>
         public string playID   { get;  set; }
+        /// <summary>
+        /// 观众数
+        /// </summary>
         public int audience { get;  set; }
     }
 }

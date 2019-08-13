@@ -1,0 +1,4 @@
+### Version
+# Format: (Major).(Minor).(Build).(Revision)
+VERSION=3.1.0
+REVISION=3

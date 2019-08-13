@@ -1,0 +1,271 @@
+[Target]
+1=Prog 01
+2=Prog 02
+3=Prog 03
+4=Prog 04
+5=Prog 05
+6=Prog 06
+7=Prog 07
+8=Prog 08
+9=Prog 09
+10=Prog 10
+11=Prog 11
+12=Prog 12
+13=Prog 13
+14=Prog 14
+15=Prog 15
+16=Prog 16
+17=Prog 17
+18=Prog 18
+19=Prog 19
+20=Prog 20
+21=Prog 21
+22=Prog 22
+23=Prog 23
+24=Prog 24
+25=Prog 25
+26=Prog 26
+27=Prog 27
+28=Prog 28
+29=Prog 29
+30=Prog 30
+31=Prog 31
+32=Prog 32
+33=Prog 33
+34=Prog 34
+35=Prog 35
+36=Prog 36
+37=Prog 37
+38=Prog 38
+39=Prog 39
+40=Prog 40
+41=Prog 41
+42=Prog 42
+43=Prog 43
+44=Prog 44
+45=Prog 45
+46=Prog 46
+47=Prog 47
+48=Prog 48
+49=Prog 49
+50=Prog 50
+51=Prog 51
+52=Prog 52
+53=Prog 53
+54=Prog 54
+
+[Prog 01]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCLoggerlib.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 02]
+File=PATH_TO_TARGET_FILE_FRONT\MediaCaptureWPF.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 03]
+File=PATH_TO_TARGET_FILE_FRONT\MediaCaptureWPF.Native.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 04]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCCameraCtrl.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 05]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCExtendControlsLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 06]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCGlassLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 07]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCMessage.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 08]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCProcComLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 09]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCSettingLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 10]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCVerticalListLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 11]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCXmlLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 12]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCCamera.exe
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 13]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCHome.exe
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 14]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCJpgViewer.exe
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 15]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCMp4Player.exe
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 16]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCPdfViewer.exe
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 17]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCQuickSet.exe
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 18]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCRemoteComm.exe
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 19]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCSettings.exe
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 20]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCStatus.exe
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 21]
+File=PATH_TO_TARGET_FILE_FRONT\USBCViewer.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 22]
+File=PATH_TO_TARGET_FILE_FRONT\USBCViewerFlip.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 23]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCLoggerlib.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 24]
+File=PATH_TO_TARGET_FILE_FRONT\fr\TosRCMessage.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\fr
+
+[Prog 25]
+File=PATH_TO_TARGET_FILE_FRONT\fr\TosRCVerticalListLib.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\fr
+
+[Prog 26]
+File=PATH_TO_TARGET_FILE_FRONT\fr\TosRCCamera.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\fr
+
+[Prog 27]
+File=PATH_TO_TARGET_FILE_FRONT\fr\TosRCHome.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\fr
+
+[Prog 28]
+File=PATH_TO_TARGET_FILE_FRONT\fr\TosRCJpgViewer.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\fr
+
+[Prog 29]
+File=PATH_TO_TARGET_FILE_FRONT\fr\TosRCMp4Player.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\fr
+
+[Prog 30]
+File=PATH_TO_TARGET_FILE_FRONT\fr\TosRCPdfViewer.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\fr
+
+[Prog 31]
+File=PATH_TO_TARGET_FILE_FRONT\fr\TosRCQuickSet.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\fr
+
+[Prog 32]
+File=PATH_TO_TARGET_FILE_FRONT\fr\TosRCRemoteComm.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\fr
+
+[Prog 33]
+File=PATH_TO_TARGET_FILE_FRONT\fr\TosRCSettings.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\fr
+
+[Prog 34]
+File=PATH_TO_TARGET_FILE_FRONT\ja-JP\TosRCMessage.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\ja-JP
+
+[Prog 35]
+File=PATH_TO_TARGET_FILE_FRONT\ja-JP\TosRCVerticalListLib.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\ja-JP
+
+[Prog 36]
+File=PATH_TO_TARGET_FILE_FRONT\ja-JP\TosRCCamera.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\ja-JP
+
+[Prog 37]
+File=PATH_TO_TARGET_FILE_FRONT\ja-JP\TosRCHome.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\ja-JP
+
+[Prog 38]
+File=PATH_TO_TARGET_FILE_FRONT\ja-JP\TosRCJpgViewer.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\ja-JP
+
+[Prog 39]
+File=PATH_TO_TARGET_FILE_FRONT\ja-JP\TosRCMp4Player.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\ja-JP
+
+[Prog 40]
+File=PATH_TO_TARGET_FILE_FRONT\ja-JP\TosRCPdfViewer.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\ja-JP
+
+[Prog 41]
+File=PATH_TO_TARGET_FILE_FRONT\ja-JP\TosRCQuickSet.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\ja-JP
+
+[Prog 42]
+File=PATH_TO_TARGET_FILE_FRONT\ja-JP\TosRCRemoteComm.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\ja-JP
+
+[Prog 43]
+File=PATH_TO_TARGET_FILE_FRONT\ja-JP\TosRCSettings.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT\ja-JP
+
+[Prog 44]
+File=PATH_TO_TARGET_FILE_BACK\TosRCSupport.exe
+Signed=PATH_TO_OUTPUT_FOLDER_BACK
+
+[Prog 45]
+File=PATH_TO_TARGET_FILE_BACK\fr\TosRCSupport.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_BACK\fr
+
+[Prog 46]
+File=PATH_TO_TARGET_FILE_BACK\ja-jp\TosRCSupport.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER_BACK\ja-JP
+
+[Prog 47]
+File=PATH_TO_TARGET_FILE_INSTALLER\TosRCInitialize.exe
+Signed=PATH_TO_OUTPUT_FOLDER_INSTALLER
+
+[Prog 48]
+File=PATH_TO_TARGET_FILE_FRONT\eCAMFwSw.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 49]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCVoiceCommandLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 50]
+File=PATH_TO_TARGET_FILE_FRONT\Wlan.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 51]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCLoggerlib.dll
+Signed=PATH_TO_OUTPUT_FOLDER_BACK
+
+[Prog 52]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCXmlLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER_BACK
+
+[Prog 53]
+File=PATH_TO_TARGET_FILE_FRONT\ConfigUtilityClient.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 54]
+File=PATH_TO_TARGET_FILE_FRONT\ConfigUtilityInterfaces.dll
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT

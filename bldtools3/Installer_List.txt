@@ -1,0 +1,31 @@
+[Target]
+1=Prog 01
+2=Prog 02
+3=Prog 03
+4=Prog 04
+5=Prog 05
+6=Prog 06
+
+[Prog 01]
+File=PATH_TO_TARGET_FILE_FRONT\setup.exe
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 02]
+File=PATH_TO_TARGET_FILE_FRONT\TosRCSetupFrontEnd.msi
+Signed=PATH_TO_OUTPUT_FOLDER_FRONT
+
+[Prog 03]
+File=PATH_TO_TARGET_FILE_BACK\setup.exe
+Signed=PATH_TO_OUTPUT_FOLDER_BACK
+
+[Prog 04]
+File=PATH_TO_TARGET_FILE_BACK\TosRCSetupBackEnd.msi
+Signed=PATH_TO_OUTPUT_FOLDER_BACK
+
+[Prog 05]
+File=PATH_TO_TARGET_FILE\setup.exe
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 06]
+File=PATH_TO_TARGET_FILE\ToshibaApplicationLauncher.msi
+Signed=PATH_TO_OUTPUT_FOLDER

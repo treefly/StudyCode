@@ -1,0 +1,127 @@
+[Target]
+1=Prog 01
+2=Prog 02
+3=Prog 03
+4=Prog 04
+5=Prog 05
+6=Prog 06
+7=Prog 07
+8=Prog 08
+9=Prog 09
+10=Prog 10
+11=Prog 11
+12=Prog 12
+13=Prog 13
+14=Prog 14
+15=Prog 15
+16=Prog 16
+17=Prog 17
+18=Prog 18
+19=Prog 19
+20=Prog 20
+21=Prog 21
+22=Prog 22
+23=Prog 23
+24=Prog 24
+25=Prog 25
+
+
+[Prog 01]
+File=PATH_TO_TARGET_FILE\TosRCHome.exe
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 02]
+File=PATH_TO_TARGET_FILE\TosRCQuickSet.exe
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 03]
+File=PATH_TO_TARGET_FILE\TosRCSettings.exe
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 04]
+File=PATH_TO_TARGET_FILE\TosRCStatus.exe
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 05]
+File=PATH_TO_TARGET_FILE\TosRCExtendControlsLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 06]
+File=PATH_TO_TARGET_FILE\TosRCGlassLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 07]
+File=PATH_TO_TARGET_FILE\TosRCLoggerlib.dll
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 08]
+File=PATH_TO_TARGET_FILE\TosRCMessage.dll
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 09]
+File=PATH_TO_TARGET_FILE\TosRCProcComLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 10]
+File=PATH_TO_TARGET_FILE\TosRCSettingLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 11]
+File=PATH_TO_TARGET_FILE\TosRCVerticalListLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 12]
+File=PATH_TO_TARGET_FILE\TosRCXmlLib.dll
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 13]
+File=PATH_TO_TARGET_FILE\USBCViewer.dll
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 14]
+File=PATH_TO_TARGET_FILE\USBCViewerFlip.dll
+Signed=PATH_TO_OUTPUT_FOLDER
+
+[Prog 15]
+File=PATH_TO_TARGET_FILE\fr\TosRCHome.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER\fr
+
+[Prog 16]
+File=PATH_TO_TARGET_FILE\fr\TosRCMessage.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER\fr
+
+[Prog 17]
+File=PATH_TO_TARGET_FILE\fr\TosRCQuickSet.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER\fr
+
+[Prog 18]
+File=PATH_TO_TARGET_FILE\fr\TosRCSettings.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER\fr
+
+[Prog 19]
+File=PATH_TO_TARGET_FILE\fr\TosRCVerticalListLib.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER\fr
+
+[Prog 20]
+File=PATH_TO_TARGET_FILE\ja-JP\TosRCHome.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER\ja-JP
+
+[Prog 21]
+File=PATH_TO_TARGET_FILE\ja-JP\TosRCMessage.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER\ja-JP
+
+[Prog 22]
+File=PATH_TO_TARGET_FILE\ja-JP\TosRCQuickSet.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER\ja-JP
+
+[Prog 23]
+File=PATH_TO_TARGET_FILE\ja-JP\TosRCSettings.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER\ja-JP
+
+[Prog 24]
+File=PATH_TO_TARGET_FILE\ja-JP\TosRCVerticalListLib.resources.dll
+Signed=PATH_TO_OUTPUT_FOLDER\ja-JP
+
+[Prog 25]
+File=PATH_TO_TARGET_FILE\eCAMFwSw.dll
+Signed=PATH_TO_OUTPUT_FOLDER

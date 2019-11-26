@@ -12,3 +12,9 @@ git diff                #查看修改了什么
 git diff  --cached      #查看文件已经缓存了什么，
 git diff  --staged
 git commit -m "add log message"
+git commit -a -m        #省略添加的步骤     简写的方法
+git rm                  #从暂存区域中移除指定的文件
+git rm -f  name         #强制删除文件
+git rm --cached name    #从暂存区域中删除，但是想保留本地文件，==》其实就是忽略文件
+git rm log/\*.log       #列出文件或者目录的名称
+git rm \*~              #删除以~结尾的所有文件

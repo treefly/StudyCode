@@ -1,0 +1,10 @@
+git config --list       #查看配置文件
+git config user.name    #查看单个属性配置
+git help config         #查看某命令帮助信息
+git config --help
+git init                #初始化操作
+git add *.txt           #添加指定类型文件
+git clone url           #克隆代码
+git status              #查看文件状态
+git status -s           #特定格式查看文件状态
+git                     #如何忽略某系文件

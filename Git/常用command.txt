@@ -8,3 +8,7 @@ git clone url           #克隆代码
 git status              #查看文件状态
 git status -s           #特定格式查看文件状态
 git                     #如何忽略某系文件
+git diff                #查看修改了什么
+git diff  --cached      #查看文件已经缓存了什么，
+git diff  --staged
+git commit -m "add log message"

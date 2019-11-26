@@ -18,3 +18,16 @@ git rm -f  name         #强制删除文件
 git rm --cached name    #从暂存区域中删除，但是想保留本地文件，==》其实就是忽略文件
 git rm log/\*.log       #列出文件或者目录的名称
 git rm \*~              #删除以~结尾的所有文件
+
+git mv name name1       #git 修改文件名称
+git log                 #查看log日志
+git log -p -2           #显示最近俩次提交的差异  #-p 显示每次提交的差异
+git log --stat          #一些总结性的消息
+git log --pretty=format:"%h - %an, %ar : %s"  #日期格式log
+git log --pretty=format:"%h %s" --graph
+git log --since=2.weeks #2周内提交内容
+
+撤销命令
+git commit --amend      #将暂存区域中的文件提交，如果自上次提交来
+
+ 

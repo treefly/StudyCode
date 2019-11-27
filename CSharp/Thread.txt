@@ -1,0 +1,114 @@
+#初步使用
+
+1.Thread t =new Thread (methodName)
+  t.start();
+
+2.Thread.Slepp(times)                #cpu 占用较少
+3.Thread.Join()                      #线程的等待
+4.Thread.Abort()                     #线程的终止
+5.Thread.ThreadState                 #线程的状态
+6.Thread，ThreadPriority.Highest     #线程的优先级
+7.Thread.IsBackground
+8.var threadOne= new Thread(sample.CountNumbers)
+  var threadOne =new Thread(methodName)
+  threadOne.Start(8)
+  var threadThree =new Thread(()=>CountNumber(12))
+
+9.lock (value)                       #线程锁
+  { }
+  
+10.Monitor.Enter                     #避免死锁
+
+
+#线程同步（共享资源）
+1.执行基本的原子操作
+2.使用Mutex类
+3.使用SemaphoreSlim
+4.使用AutoResetEvent
+5.使用ManualResetEventSlim
+6.使用CountDownEvent类
+7.使用Barrier
+8.使用ReaderWriterLockSlim类
+9.使用SpinWait
+
+
+1.执行基本的原子操作
+
+Interlocked类提供原子基本操作
+Interlocker.Increment
+Interlocker.Decrement
+Interlocker.Add
+
+2.使用Mutex类:同步俩个单独的程序
+
+private static Mutex mutex = null;  
+//设为Static成员，是为了在整个程序生命周期内持有Mutex
+static void Main()
+{
+    bool firstInstance;     
+    mutex = new Mutex(true, @"Global\MutexSampleApp", out firstInstance);
+    try
+    {
+        if (!firstInstance)
+        {
+            Console.WriteLine ("已有实例运行，输入回车退出……");
+            Console.ReadLine();
+            return;
+        }
+        else
+        {
+            Console.WriteLine ("我们是第一个实例！");
+            for (int i=60; i > 0; --i)
+            {
+                Console.WriteLine (i);
+                 Thread.Sleep(1000);
+            }
+        }
+    }
+    finally
+    {
+        //只有第一个实例获得控制权，因此只有在这种情况下才需要ReleaseMutex，否则会引发异常。
+        if (firstInstance)
+        {
+            mutex.ReleaseMutex();
+        }
+        mutex.Close();
+        mutex = null;
+    }
+ }
+}
+
+
+3.使用SemaphoreSlim:限制同时访问同一个资源的线程数量
+
+SemanphoreSlim _semp=new SemanphoreSlim(5);
+doWork()
+{
+  _semp.wait()
+  to do work
+  _semp.Release()
+}
+
+4.使用AutoResetEvent:从一个线程向另一个线程发送通知
+采用内核模式，等待时间不能太长
+多个线程之间的合作
+
+5.使用ManualResetEventSlim：线程间以更灵活的方式传递信号
+6.使用CountDownEvent类：等待一定数量的操作完成
+CountDownEvent _count=new CountDownEvent(2)
+_count.Wait()
+_count.Signal()
+_count.Dispose()
+7.使用Barrier:组织线程某时刻碰面
+8.使用ReaderWriterLockSlim类：多线程对集合进行读写操作
+9.使用SpinWait
+
+
+#使用线程池操作
+
+1.在线程池中调用委托
+异步编程模型（APM）
+
+
+
+
